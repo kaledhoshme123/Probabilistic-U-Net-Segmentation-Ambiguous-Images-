@@ -20,7 +20,9 @@ The previous image shows several samples of X-ray images of a healthy person, a 
 # Compare original masks with those predicted by the model:
 ## Samples of Lung_opacity Images:
 
-![pppp](https://user-images.githubusercontent.com/108609519/217648858-9795703c-fa51-4f2f-80a8-39d39cd55891.png)
+![Untitled (1)](https://user-images.githubusercontent.com/108609519/217750404-11a62279-8e70-4a1b-968c-691f8df1ab4e.jpeg)
+
 ## Samples of COVID-19 Images:
 
-![00000087](https://user-images.githubusercontent.com/108609519/217649664-042cfa61-615a-476d-a88c-44214c3a43a1.png)
+![Untitled](https://user-images.githubusercontent.com/108609519/217749635-2d31f033-871c-42c6-a25d-8b31e276be41.jpeg)
+
