@@ -4,7 +4,7 @@
 - Since the variational autoencoder is used for generation, we can use it to extract the most important information in the x-ray images, such as what we mentioned, the relationship between the left and right parts of the chest region.
 - Therefore, I proposed integrating the U-NET structure with the variational autoencoder structure in order to reach a neural network structure capable of segmentation for people with lung diseases.
 - To ensure the accuracy of the study, the neural network was trained on medical chest x-rays of people with lung opacity, and then the model was tested on chest x-rays of people with COVID-19.
-- The results were as follows: The model was able to train it on chest x-rays of people with lung opacity: accuracy: 0.9818 - precision: 0.9931 - recall: 0.9539. After completing the training, the model was tested on chest X-rays of people infected with COVID-19, and the results obtained were accuracy: 0.9782 - precision: 0.9886 - recall: 0.9613.
+- The results were as follows: The model was able to train it on chest x-rays of people with lung opacity: accuracy: 0.9829 - precision: 0.9939 - recall: 0.9606. After completing the training, the model was tested on chest X-rays of people infected with COVID-19, and the results obtained were accuracy: 0.9789 - precision: 0.9902 - recall: 0.9650.
 
 ![download - 2023-02-08T224156 794](https://user-images.githubusercontent.com/108609519/217646464-3eb72e30-5a73-4a3d-bf28-fe7261072958.png)
 
@@ -12,17 +12,18 @@ The previous image shows several samples of X-ray images of a healthy person, a 
 
 # Evaluation of the performance of the model:
 ## Evaluation of the performance of the model on x-rays of the chest area of people with lung_opacity:
-![image](https://user-images.githubusercontent.com/108609519/217647360-74bd8542-6356-4503-9f7d-c12239cc8447.png)
+![image](https://user-images.githubusercontent.com/108609519/217879613-297095b9-17a5-4073-81c1-6377584e651b.png)
+
 
 ## Evaluation of the performance of the model on x-rays of the chest area of people with covid:
-![image](https://user-images.githubusercontent.com/108609519/217647444-5963e966-92c5-4c8d-93f0-b467c994f1b8.png)
+![image](https://user-images.githubusercontent.com/108609519/217879879-79bde87c-c13f-4df4-86e9-ce5a93f07127.png)
 
 # Compare original masks with those predicted by the model:
 ## Samples of Lung_opacity Images:
 
-![Untitled (1)](https://user-images.githubusercontent.com/108609519/217750404-11a62279-8e70-4a1b-968c-691f8df1ab4e.jpeg)
+![Untitled (3)](https://user-images.githubusercontent.com/108609519/217881317-7b3b227b-0a06-4eeb-b55c-1c55450d5fc1.jpeg)
 
 ## Samples of COVID-19 Images:
 
-![Untitled](https://user-images.githubusercontent.com/108609519/217749635-2d31f033-871c-42c6-a25d-8b31e276be41.jpeg)
+![Untitled (4)](https://user-images.githubusercontent.com/108609519/217881662-7b60c234-f842-4471-b486-2cf4fa1c818f.jpeg)
 
